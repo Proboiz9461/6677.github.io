@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.app {
+    width: 380px;
+    padding: 25px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(0,255,255,0.3);
+}
+
+#questionBox {
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.3);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.buttons {
+    margin-top: 12px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 10px;
+    background: cyan;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 12px cyan;
+}
+
+#feedback {
+    margin-top: 15px;
+    min-height: 20px;
+}
